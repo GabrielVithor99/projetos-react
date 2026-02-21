@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+\# 📚 DIO Replica
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este projeto é uma réplica da plataforma \*\*Digital Innovation One (DIO)\*\*, desenvolvido em \*\*React\*\* como parte dos estudos e práticas de desenvolvimento front-end.
 
-## Available Scripts
+\---
 
-In the project directory, you can run:
+\## 🚀 Tecnologias utilizadas
 
-### `npm start`
+\- React — Biblioteca para construção de interfaces.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+\- React Router — Navegação entre páginas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+\- Styled Components — Estilização de componentes.
 
-### `npm test`
+\- Axios — Consumo de APIs (se aplicável).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+\---
 
-### `npm run build`
+\## 📂 Estrutura do projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+dio-replica/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+├── public/ # Arquivos públicos (index.html, favicon, etc.)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+├── src/
 
-### `npm run eject`
+│ ├── components/ # Componentes reutilizáveis
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+│ ├── pages/ # Páginas principais (Login, Home, Feed, etc.)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+│ ├── routes/ # Configuração de rotas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+│ ├── services/ # Integração com APIs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+│ ├── styles/ # Estilos globais
 
-## Learn More
+│ └── App.js # Componente raiz
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+├── package.json # Dependências e scripts
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+└── README.md # Documentação
 
-### Code Splitting
+\---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+\## ⚙️ Como executar o projeto
 
-### Analyzing the Bundle Size
+1\. Clone este repositório:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+git clone https://github.com/GabrielVithor99/projetos-react.git
 
-### Making a Progressive Web App
+2\. Acesse a pasta do projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+cd projetos-react/dio-replica
 
-### Advanced Configuration
+3\. Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+npm install
 
-### Deployment
+4\. Execute o projeto:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+npm start
 
-### `npm run build` fails to minify
+5\. Abra no navegador:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+http://localhost:3000
+
+\---
+
+\## 📸 Demonstração
+
+(Adicione aqui prints de tela ou GIFs mostrando o funcionamento da aplicação — login, feed, etc.)
+
+\---
+
+\## 🎯 Objetivo
+
+O objetivo deste projeto é \*\*praticar conceitos fundamentais do React\*\*, como:
+
+\- Componentização
+
+\- Props e State
+
+\- Hooks (useState, useEffect)
+
+\- Rotas com React Router
+
+\- Estilização com Styled Components
+
+\---
+
+\## 📝 Licença
+
+Este projeto é apenas para fins de estudo e prática.
+
+Sinta-se livre para usar como referência em seus próprios projetos.
+
+\---
+
+\## ✨ Autor
+
+Desenvolvido por \*\*Gabriel Vithor\*\* 🚀
