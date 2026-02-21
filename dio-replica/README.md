@@ -51,12 +51,6 @@ dio-replica/
 
 ---
 
-## 📸 Demonstração
-
-(Adicione aqui prints de tela ou GIFs mostrando o funcionamento da aplicação — login, feed, etc.)
-
----
-
 ## 🎯 Objetivo
 
 O objetivo deste projeto é **praticar conceitos fundamentais do React**, como:
