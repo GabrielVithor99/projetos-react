@@ -15,6 +15,8 @@ Este projeto é uma réplica da plataforma **Digital Innovation One (DIO)**, des
 
 ## 📂 Estrutura do projeto
 
+```
+
 dio-replica/
 ├── public/              # Arquivos públicos (index.html, favicon, etc.)
 ├── src/
@@ -27,6 +29,7 @@ dio-replica/
 ├── package.json         # Dependências e scripts
 └── README.md            # Documentação
 
+```
 ---
 
 ## ⚙️ Como executar o projeto
