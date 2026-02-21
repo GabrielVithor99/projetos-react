@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Gabriel",
+      "email": "gabriel@teste.com",
+      "senha": "123456"
+    },
+    {
+      "id": "2",
+      "name": "Jose",
+      "email": "jose@teste.com",
+      "senha": "654321"
+    },
+    {
+      "id": "787d",
+      "name": "Gabriel Mota",
+      "email": "gabriel1@teste.com",
+      "senha": "12356"
+    }
+  ]
+}
