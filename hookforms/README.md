@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Projeto React - Hook Forms
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este repositório contém uma complementação ao projeto originalmente desenvolvido pela Digital Innovation One (DIO) no desafio Trilha React - Desafio 4:
+https://github.com/digitalinnovationone/trilha-react-desafio-4.git
 
-## Available Scripts
+O objetivo desta versão é aprimorar a experiência do formulário de login com validações dinâmicas e feedback ao usuário.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Principais Complementações
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Botão de Login Dinâmico  
+  O botão de login é habilitado somente quando todos os campos do formulário passam pelas validações.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Validação de Campos  
+  Regras de validação aplicadas para garantir consistência e integridade dos dados antes do envio.
 
-### `npm test`
+- Alerta de Login  
+  Ao efetuar o login com sucesso, é exibido um alerta confirmando a ação.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- React Hook Form
+- JavaScript (ES6+)
+- HTML5 / CSS3
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Estrutura do Projeto
 
-### `npm run eject`
+O código está localizado no diretório:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+projetos-react/hookforms
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Como Executar Localmente
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone o repositório:
+   git clone https://github.com/GabrielVithor99/projetos-react.git
 
-## Learn More
+2. Acesse o diretório do projeto:
+   cd projetos-react/hookforms
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Instale as dependências:
+   npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Execute o projeto:
+   npm start
 
-### Code Splitting
+5. O projeto estará disponível em:
+   http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## Referência
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Projeto original da DIO:  
+https://github.com/digitalinnovationone/trilha-react-desafio-4.git
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Autor da Complementação
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Gabriel Vithor  
+GitHub: https://github.com/GabrielVithor99
