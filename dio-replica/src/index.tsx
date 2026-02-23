@@ -4,7 +4,8 @@ import App from './App';
 import { GlobalStyle } from './styles/global';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const rootElement = document.getElementById('root') as HTMLElement;
+const root = ReactDOM.createRoot(rootElement);
 root.render(
   <React.StrictMode>
     <GlobalStyle />

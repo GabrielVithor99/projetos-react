@@ -1,4 +1,5 @@
 import { styled  } from "styled-components";
+import { IColumnProps } from './types';
 
 export const Container = styled.div`
     width: 100%;
@@ -45,7 +46,7 @@ export const TextContent = styled.p`
     margin-bottom: 20px;
 `
 
-export const Column = styled.div`
+export const Column = styled.div<IColumnProps>`
     flex:${({flex}) => flex};
     padding-right:48px;
 `;

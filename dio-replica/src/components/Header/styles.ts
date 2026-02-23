@@ -1,5 +1,6 @@
 import {styled} from "styled-components";
 import { css } from "styled-components";
+import { IMenuProps } from './types';
 
 export const HeaderContainer = styled.header`
     width: 100%;
@@ -54,7 +55,7 @@ export const SearchInputContainer = styled.div`
     outline: none;
 `;
 
-export const Menu = styled.div`
+export const Menu = styled.a<IMenuProps>`
     font-family: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -66,7 +67,7 @@ export const Menu = styled.div`
     text-decoration: none;
 `;
 
-export const MenuRight = styled(Menu)`
+export const MenuRight = styled.div`
    font-family: 'Open Sans', sans-serif;
    font-style: normal;
     display: flex;

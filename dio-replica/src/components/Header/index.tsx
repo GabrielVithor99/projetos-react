@@ -1,10 +1,8 @@
 import React from 'react'
-import { styled } from 'styled-components'
 import { Button } from '../Button';
 import {
     HeaderContainer,
     Row,
-    Column,
     Wrapper,
     SearchInputContainer,
     Menu,
@@ -14,8 +12,9 @@ import {
     Logo
 } from './styles'
 import { useNavigation } from '../../hooks/useNavigation';
+import { IHeaderProps } from './types';
 
-export const Header = ({isLogged}) => {
+export const Header: React.FC<IHeaderProps> = ({isLogged = false}) => {
 
     const { goToHome, goToLogin, goToCadastro } = useNavigation();
   return (

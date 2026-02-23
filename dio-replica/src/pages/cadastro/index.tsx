@@ -40,7 +40,13 @@ export const Cadastro = () => {
 
   console.log(isValid, errors)
 
-  const onSubmit = async formdata => {
+  interface IRegisterFormData {
+    nome: string;
+    email: string;
+    password: string;
+  }
+
+  const onSubmit = async (formdata: IRegisterFormData) => {
     try{
       // Remove espaços e loga os dados
       const email = formdata.email.trim();
@@ -70,8 +76,10 @@ export const Cadastro = () => {
 
       // redireciona para o feed quando tudo der certo
       goToFeed();
-    }catch(e){
-      alert("Houve um erro tente novamente: " + e.message);
+    } catch (e) {
+      if (e instanceof Error) {
+        alert("Houve um erro tente novamente: " + e.message);
+      }
     }
   }
 

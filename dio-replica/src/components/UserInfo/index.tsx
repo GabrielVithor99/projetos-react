@@ -7,8 +7,9 @@ import{
     NameText,
     Progress
 } from "./styles";
+import { IUserInfoProps } from './types';
 
-export const UserInfo = ({name,image,percentual}) => {
+export const UserInfo: React.FC<IUserInfoProps> = ({name,image,percentual}) => {
   return (
     <UserInforContainer>
         <UserPicture src={image}/>

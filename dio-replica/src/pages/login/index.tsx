@@ -21,6 +21,11 @@ import {Container,
   CreateText,
  } from './styles';
 
+interface IFormData {
+  email: string;
+  password: string;
+}
+
 export const Login = () => {
 
     const { goToFeed, goToCadastro } = useNavigation();
@@ -37,7 +42,7 @@ export const Login = () => {
 
   console.log(isValid, errors)
 
-  const onSubmit = async formdata => {
+  const onSubmit = async (formdata: IFormData) => {
     try{
       const email = formdata.email.trim();
       const password = formdata.password.trim();
@@ -56,8 +61,10 @@ export const Login = () => {
       }else{
         alert('Email ou senha inválido');
       }
-    }catch(e){
-      alert("Houve um erro tente novamente: "+e.message);
+    } catch (e) {
+      if (e instanceof Error) {
+        alert("Houve um erro tente novamente: " + e.message);
+      }
     }
   }
 

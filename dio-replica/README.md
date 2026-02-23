@@ -25,7 +25,7 @@ dio-replica/
 │   ├── routes/          # Configuração de rotas
 │   ├── services/        # Integração com APIs
 │   ├── styles/          # Estilos globais
-│   └── App.js           # Componente raiz
+│   └── App.tsx           # Componente raiz
 ├── package.json         # Dependências e scripts
 └── README.md            # Documentação
 
